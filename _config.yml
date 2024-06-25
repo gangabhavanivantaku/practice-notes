@@ -17,7 +17,7 @@
 remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "Rohini Barla Practice Notes"
+title: "Ganga Bhavani"
 description: "Practice Notebook"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -93,8 +93,8 @@ defaults:
 author:
   name: Rohini Kumar Barla
   picture:
-  email: rohinibarla@hey.com
-  twitter: rohinibarla
+  email: rgangabhavani1993.com
+  twitter: gangav
   links:
     - title:
       url:
