@@ -161,3 +161,51 @@ int main(void)
     }
 }
 ```
+* ### **Given a number, positive or negative**
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int num;
+
+    printf("To check the number is positive or negative\n");
+
+    num = get_int("Enter the number\n");
+
+    if (num >= 0)
+    {
+        printf("The number %i is positive\n", num);
+    }
+    else
+        printf("The number %i is negative\n", num);
+}
+```
+
+* ### **n-even numbers**
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int n;
+    int counter;
+    printf("To print 'n' even njumbers\n");
+
+    n = get_int("Enter the number\n");
+    counter = 1;
+    while (counter <= n)
+    {
+        if ((counter % 2) == 0)
+        {
+            printf("%i,", counter);
+        }
+        counter = counter + 1;
+    }
+    printf("\n");
+}
+```
