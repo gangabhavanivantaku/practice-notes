@@ -4,7 +4,7 @@ date: 2024-07-01
 categories:
 ---
 
-### Songs created using suno.com
+### Songs created using suno.com `v3.5`
 * ### The List of songs
 
  1. jolali paadali
