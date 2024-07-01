@@ -3,6 +3,7 @@ title: "Basic C-programmes"
 date: 2024-07-01
 categories:
 ---
+
 ## Basic C-programmes
 * ### **Sum of Two numbers**
 ```c
