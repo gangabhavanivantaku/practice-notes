@@ -5,7 +5,9 @@ categories:
 ---
 
 ## Basic C-programmes
+
 * ### **Sum of Two numbers**
+
 ```c
 #include <cs50.h>
 #include <stdio.h>
@@ -21,6 +23,7 @@ int main(void)
 }
 ```
 * ### **Product of Three numbers**
+
 ```c
 #include <cs50.h>
 #include <stdio.h>
@@ -40,6 +43,7 @@ int main(void)
 }
 ```
 * ### **Maximum of Two numbers**
+
 ```c
 #include <cs50.h>
 #include <stdio.h>
@@ -69,6 +73,7 @@ int main(void)
 }
 ```
 * ###  **sum of two digit numbers**
+
 ```c
 #include <cs50.h>
 #include <stdio.h>
@@ -86,6 +91,7 @@ int main(void)
 }
 ```
 * ### **First N natural numbers**
+
 ```c 
 #include <cs50.h>
 #include <stdio.h>
@@ -109,6 +115,7 @@ int main(void)
 }
 ```
 * ### **First 100 natural numbers**
+
 ```c
 #include <cs50.h>
 #include <stdio.h>
@@ -132,6 +139,7 @@ int main(void)
 }
 ```
 * ### **Given a number, odd or even**
+
 ```c
 #include <cs50.h>
 #include <stdio.h>
