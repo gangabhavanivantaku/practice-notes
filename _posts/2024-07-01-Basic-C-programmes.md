@@ -326,7 +326,7 @@ Enter the number
 2,4,6,8,10,12,14,16,18,20,22,
 
 ```
-* ### `n`even numbers**
+* ### **`n` even numbers**
 
 ```c
 #include <cs50.h>
