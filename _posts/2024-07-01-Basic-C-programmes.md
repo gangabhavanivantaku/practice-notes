@@ -292,7 +292,7 @@ The number 2356 is positive
 
 ```
 
-* ### **n-even numbers**
+* ### **even numbers up to `n`**
 
 ```c
 #include <cs50.h>
@@ -324,5 +324,41 @@ To print 'n' even numbers
 Enter the number
 22
 2,4,6,8,10,12,14,16,18,20,22,
+
+```
+* ### `n`even numbers**
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int n;
+    int counter;
+    int even;
+
+    printf("To print n even numbers.\n");
+    n = get_int("Enter the number: ");
+
+    counter = 1;
+    while (counter <= n - 1)
+    {
+        even = counter * 2;
+        printf("%i,", even);
+        counter++;
+    }
+    even = counter * 2;
+    printf("%i.", even);
+    printf("\n");
+}
+```
+
+**The corresponding output**
+
+```bash
+To print n even numbers.
+Enter the number: 10
+2,4,6,8,10,12,14,16,18,20.
 
 ```
