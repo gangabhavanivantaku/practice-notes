@@ -42,9 +42,8 @@ int main(void){
 }
 ```
 **_This code will give output_**
+
 ```bash
-markdownfiles/ $ make formatspecifiers 
-markdownfiles/ $ ./formatspecifiers 
 My name is
 Ganga
 10
