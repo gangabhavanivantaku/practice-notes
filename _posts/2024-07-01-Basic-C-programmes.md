@@ -22,6 +22,17 @@ int main(void)
     printf("The sum of %i and %i is %i.\n", num1, num2, sum);
 }
 ```
+**The corresponding output**
+
+```bash
+To add two Numbers
+Enter first Number
+34
+Enter second Number
+67
+The sum of 34 and 67 is 101.
+```
+
 * ### **Product of Three numbers**
 
 ```c
@@ -42,6 +53,20 @@ int main(void)
     printf("The product of %i,%i and %i is %i.\n", num1, num2, num3, product);
 }
 ```
+
+**The Corresponding output**
+
+```bash
+To product three Numbers
+Enter first Number
+23
+Enter second Number
+-3
+Enter third Number
+12
+The product of 23,-3 and 12 is -828.
+```
+
 * ### **Maximum of Two numbers**
 
 ```c
@@ -72,6 +97,27 @@ int main(void)
     }
 }
 ```
+**The corresponding output**
+
+```bash
+Test case 1:
+Max of two Numbers
+Enter first Number
+35
+Enter second Number
+96
+The max of 35 and 96 is 96.
+
+Test case 2:
+Max of two Numbers
+Enter first Number
+-98
+Enter second Number
+1
+The max of -98 and 1 is 1
+
+```
+
 * ###  **sum of two digit numbers**
 
 ```c
@@ -90,6 +136,17 @@ int main(void)
     printf("sum of two digits of a number %i, is %i.\n", Number, sum);
 }
 ```
+
+**The corresponding output**
+
+```bash
+Sum of Two digit number
+Enter two digit number
+74
+sum of two digits of a number 74, is 11.
+
+```
+
 * ### **First N natural numbers**
 
 ```c 
@@ -114,6 +171,16 @@ int main(void)
     printf("\n");
 }
 ```
+**The Corresponding output**
+
+```bash
+To print first 'N' naturalnumbers
+Enter the 'N'
+32
+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,
+
+```
+
 * ### **First 100 natural numbers**
 
 ```c
@@ -138,6 +205,13 @@ int main(void)
     printf("\n");
 }
 ```
+**The Corresponding output**
+
+```bash
+To print first 100 naturalnumbers
+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,
+
+```
 * ### **Given a number, odd or even**
 
 ```c
@@ -161,6 +235,22 @@ int main(void)
     }
 }
 ```
+**The Corresponding output**
+
+```bash
+Test case 1:
+To check the number is Even or Odd
+Enter the Number
+5674
+The given number 5674 is Even.
+
+Test case 2:
+To check the number is Even or Odd
+Enter the Number
+3467
+The given number 3467 is Odd.
+
+```
 * ### **Given a number, positive or negative**
 
 ```c
@@ -177,11 +267,29 @@ int main(void)
 
     if (num >= 0)
     {
-        printf("The number %i is positive\n", num);
+        printf("The number %i is positive.\n", num);
     }
     else
-        printf("The number %i is negative\n", num);
+        printf("The number %i is negative.\n", num);
 }
+```
+**The Corresponding output**
+
+```bash
+Test case 1:
+
+To check the number is positive or negative
+Enter the number
+-785
+The number -785 is negative.
+
+Test case 2:
+
+To check the number is positive or negative.
+Enter the number
+2356
+The number 2356 is positive
+
 ```
 
 * ### **n-even numbers**
@@ -194,7 +302,7 @@ int main(void)
 {
     int n;
     int counter;
-    printf("To print 'n' even njumbers\n");
+    printf("To print 'n' even numbers\n");
 
     n = get_int("Enter the number\n");
     counter = 1;
@@ -208,4 +316,13 @@ int main(void)
     }
     printf("\n");
 }
+```
+**The Corresponding output**
+
+```bash
+To print 'n' even numbers
+Enter the number
+22
+2,4,6,8,10,12,14,16,18,20,22,
+
 ```
