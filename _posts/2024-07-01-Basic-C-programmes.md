@@ -362,3 +362,33 @@ Enter the number: 10
 2,4,6,8,10,12,14,16,18,20.
 
 ```
+* ### **Third angle of a triangle**
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int angle1, angle2, sum, thirdangle;
+    printf("To find the third angle of a triangle.\n");
+
+    angle1 = get_int("Enter the first angle: ");
+    angle2 = get_int("Enter the second angle: ");
+
+    sum = angle1 + angle2;
+    thirdangle = 180 - sum;
+
+    printf("The third angle of the triangle is %i degrees.\n", thirdangle);
+}
+```
+**The corresponding output**
+
+```bash
+
+To find the third angle of a triangle.
+Enter the first angle: 60
+Enter the second angle: 40
+The third angle of the triangle is 80 degrees.
+
+```
