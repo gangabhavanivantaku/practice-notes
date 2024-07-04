@@ -392,3 +392,87 @@ Enter the second angle: 40
 The third angle of the triangle is 80 degrees.
 
 ```
+* ### **N Odd Numbers**
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int n, counter, odd;
+
+    printf("To display a series of odd numbers.\n");
+
+    n = get_int("How many odd numbers would you like to see? ");
+
+    printf("The first %i odd numbers are ", n);
+
+    counter = 0;
+    while (counter < n - 1)
+    {
+        odd = counter * 2 + 1;
+        printf("%i, ", odd);
+        counter = counter + 1;
+    }
+    odd = counter * 2 + 1;
+    printf("%i.\n", odd);
+}
+
+```
+**The corresponding output**
+
+```bash
+
+To display a series of odd numbers.
+How many odd numbers would you like to see? 6
+The first 6 odd numbers are 1, 3, 5, 7, 9, 11.
+
+```
+* ### **Odd Numbers Upto N**
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int n, counter;
+
+    printf("To display all odd numbers up to a given number.\n");
+
+    n = get_int("Up to which number would you like to print odd numbers? ");
+
+    printf("The odd numbers up to %i are ", n);
+
+    counter = 0;
+
+    while (counter < (n - 1))
+    {
+        if (counter % 2 != 0)
+        {
+            printf("%i, ", counter);
+        }
+        counter++;
+    }
+
+    if (counter % 2 != 0)
+    {
+        printf("%i.\n", counter);
+    }
+    if (n % 2 != 0)
+    {
+        printf("%i.\n", n);
+    }
+}
+
+```
+**The corresponding output**
+
+```bash
+
+To display all odd numbers up to a given number.
+Up to which number would you like to print odd numbers? 10
+The odd numbers up to 10 are 1, 3, 5, 7, 9.
+
+```
