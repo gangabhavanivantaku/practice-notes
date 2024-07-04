@@ -30,7 +30,7 @@ categories:
 
 * **When you enter a live class, particularly an online one, several technical processes and systems work together to facilitate the experience. Here's a breakdown of what happens behind the scenes:**
 
-## Online Live Classes
+### Online Live Classes
 
 1. ### **Authentication and Authorization:**
 
