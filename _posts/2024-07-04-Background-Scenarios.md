@@ -28,7 +28,7 @@ categories:
 
 **Throughout this process, various optimizations and security checks are performed to ensure the website loads quickly and safely.**
 
-_______________________________________________________________________________________-
+____________________________________________________________________________________________________________________________________________________________________________________________________________
 
  **When you enter a live class, particularly an online one, several technical processes and systems work together to facilitate the experience. Here's a breakdown of what happens behind the scenes:**
 
