@@ -83,3 +83,36 @@ printthreetimes("5");
 **By using help50:**
 By "incompatible conversion", clang means that you are assigning a value to a variable of a different type on line 8 of
 print3times.c. Try ensuring that your value is of type integer.
+
+### **Implement printevenorodd(); function**
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+void printevenorodd(int n);
+
+int main(void)
+{
+    printevenorodd(6);
+    printevenorodd(15);
+}
+void printevenorodd(int n)
+{
+    if(n % 2 == 0){
+        printf("The given number %i is even number.\n", n);
+    }
+    else
+    {
+        printf("The given number %i is odd number.\n", n);
+    }
+}
+
+```
+**The corresponding output**
+
+```bash
+The given number 6 is even number.
+The given number 15 is odd number.
+
+```
