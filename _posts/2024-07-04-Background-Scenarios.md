@@ -27,8 +27,9 @@ categories:
 * **User Interaction:** Once the page is fully loaded, the user can interact with it. The browser continues to listen for events (like clicks or form submissions) and may make additional HTTP requests (such as AJAX requests) based on user actions.
 
 **Throughout this process, various optimizations and security checks are performed to ensure the website loads quickly and safely.**
+_______________________________________________________________________________________-
 
-* **When you enter a live class, particularly an online one, several technical processes and systems work together to facilitate the experience. Here's a breakdown of what happens behind the scenes:**
+ **When you enter a live class, particularly an online one, several technical processes and systems work together to facilitate the experience. Here's a breakdown of what happens behind the scenes:**
 
 ### Online Live Classes
 
