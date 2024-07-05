@@ -13,13 +13,15 @@ categories:
 #include <cs50.h>
 #include <stdio.h>
 
+//declaration of function
 void printthreetimes(string str);
 
 int main(void)
 {
+    //calling a function
     printthreetimes("Hello World");
 }
-
+    //define a function
 void printthreetimes(string str)
 {
     printf("%s\n", str);
@@ -41,27 +43,29 @@ Hello World
 You seem to be using string on line 3 of print3times.c as though it's a type, even though it's not been defined
 as one. Did you forget #include <cs50.h> atop print3times.c?
 
-### **Implement printthreetimes():function**
+### **Implement `print-next-three();`function**
 
-### **For int input**
 
 ```c
 
 #include <cs50.h>
 #include <stdio.h>
 
-void printthreetimes(int n);
+//declaration of a function
+void print-next-three(int n);
 
 int main(void)
 {
-    printthreetimes(5);
-    printthreetimes(10);
+    //function calling
+    print-next-three(5);
+    //again function calling with argument changing
+    print-next-three(10);
 }
-
-void printthreetimes(int n)
+//define a function
+void print-next-three(int n)
 {
     printf("%i, ", n);
-    printf("%i, ", n * 2);
+    printf("%i, ", n + 1);
     printf("%i.\n", n + 2);
 }
 
@@ -70,8 +74,8 @@ void printthreetimes(int n)
 
 ```bash
 
-5, 10, 7.
-10, 20, 12.
+5, 6, 7.
+10, 11, 12.
 
 ```
 **Did one mistake**
