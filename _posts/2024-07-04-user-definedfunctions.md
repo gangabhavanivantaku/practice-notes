@@ -43,7 +43,7 @@ Hello World
 You seem to be using string on line 3 of print3times.c as though it's a type, even though it's not been defined
 as one. Did you forget #include <cs50.h> atop print3times.c?
 
-### **Implement `print-next-three();`function**
+### **Implement `print_next_three();`function**
 
 
 ```c
@@ -52,14 +52,14 @@ as one. Did you forget #include <cs50.h> atop print3times.c?
 #include <stdio.h>
 
 //declaration of a function
-void print-next-three(int n);
+void print_next_three(int n);
 
 int main(void)
 {
     //function calling
-    print-next-three(5);
+    print_next_three(5);
     //again function calling with argument changing
-    print-next-three(10);
+    print_next_three(10);
 }
 //define a function
 void print-next-three(int n)
@@ -78,7 +78,9 @@ void print-next-three(int n)
 10, 11, 12.
 
 ```
-**Did one mistake**
+**Did  mistakes**
+
+1.**first mistake**
 
 **While compilation:**
 error: incompatible pointer to integer conversion passing 'char[2]' to parameter of type 'int' [-Werror,-Wint-conversion]
@@ -87,6 +89,14 @@ printthreetimes("5");
 **By using help50:**
 By "incompatible conversion", clang means that you are assigning a value to a variable of a different type on line 8 of
 print3times.c. Try ensuring that your value is of type integer.
+
+2.**second mistake**
+
+function-practice.c:5:6: error: variable has incomplete type 'void'
+void print-next-three(int n);
+
+help50 suggestion:
+Not quite sure how to help, but focus your attention on line 5 of function-practice.c!
 
 ### **Implement printevenorodd(); function**
 
