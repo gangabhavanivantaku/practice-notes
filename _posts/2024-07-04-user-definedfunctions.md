@@ -62,7 +62,7 @@ int main(void)
     print_next_three(10);
 }
 //define a function
-void print-next-three(int n)
+void print_next_three(int n)
 {
     printf("%i, ", n);
     printf("%i, ", n + 1);
