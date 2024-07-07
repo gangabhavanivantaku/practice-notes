@@ -145,3 +145,28 @@ HELLO
 * Characterarray.c:13:29: error: expected expression
 
     printArrayElements(name[]);
+    
+
+### **To find String length**
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    string name = "Ganga Bhavani";
+    int n = 0;
+    while(name[n] != '\0')
+    {
+        n++;
+    }
+    printf("%i\n", n);
+}
+
+```
+**0utput**
+
+```bash
+13
+```
