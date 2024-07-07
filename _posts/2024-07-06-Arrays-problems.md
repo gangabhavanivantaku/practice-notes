@@ -96,3 +96,52 @@ In this case, the size of the array is automatically determined by the length of
 * You can access and modify elements in a character array using array indexing
 
         name[0] = 'H';    name[1] = 'e';
+
+**Practice programme**
+
+```c
+
+#include <cs50.h>
+#include <stdio.h>
+
+
+void printArrayElements(char name[6]);
+
+int main(int argc, string words[])
+{
+    words[0] = "HI";
+    words[1] = "BYE";
+    words[3] = "HELLO";
+    char name[6] = {'G','A','N','G','A','\0'};
+    printArrayElements(name);
+
+    printf("%s ", words[0]);
+    printf("%s\n", words[1]);
+    printf("%c%c%c%c%c\n", words[3][0], words[3][1], words[3][2], words[3][3], words[3][4]);
+}
+void printArrayElements(char name[6])
+{
+    printf("%c%c%c%c%c\n", name[0], name[1],name[2],name[3],name[4]);
+}
+
+```
+**The corresponding output**
+
+```bash
+GANGA
+HI BYE
+HELLO
+
+```
+* **mistakes**
+* Characterarray.c:7:5: error: first parameter of 'main' (argument count) must be of type 'int'
+
+    int main(string words[],int argc)
+    
+* Characterarray.c:17:22: error: more '%' conversions than data arguments [-Werror,-Wformat-insufficient-args]
+
+    printf("%c%c%c%c%c", words[3][0], words[3][1], words[3][2], words[3][3]);    
+
+* Characterarray.c:13:29: error: expected expression
+
+    printArrayElements(name[]);
