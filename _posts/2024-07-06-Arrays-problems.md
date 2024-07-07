@@ -60,3 +60,39 @@ arrays_practice.c:11:12: note: initialize the variable 'sum' to silence this war
 
 By "incompatible conversion", clang means that you are assigning a value to a variable of a different type on line 10 of
 arrays_practice.c. Try ensuring that your value is of type pointer.            
+
+### **Character Array introduction**
+
+* A character array is a sequence of characters stored in contiguous memory locations.
+
+* You can declare, initialize, and modify character Arrays.
+
+* You can access elements in the array using indexing.
+
+*  In C, character arrays are often used to store strings, which are sequences of characters terminated by a null character 
+    `('\0')`.
+    
+**Declaring a Character Array**
+
+To declare a character array, you specify the type (char), the array name, and the size of the array in square brackets.
+
+Example: char name[10];
+
+This declares a character array named name that can hold up to 9 characters (plus the null terminator).
+
+**Initializing a Character Array**
+
+You can initialize a character array at the time of declaration in two ways:
+
+* By specifying individual characters:
+
+char name[6] = {'H', 'e', 'l', 'l', 'o', '\0'};
+
+* By using a string literal
+
+char name[6] = "Hello";
+In this case, the size of the array is automatically determined by the length of the string plus the null terminator.
+
+* You can access and modify elements in a character array using array indexing
+
+        name[0] = 'H';    name[1] = 'e';
