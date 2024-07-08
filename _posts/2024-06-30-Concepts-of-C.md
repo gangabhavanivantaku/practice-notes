@@ -61,6 +61,8 @@ categories:
 
      Example: `char d = 'A'`;
 
+     ** string datatype is not in C-library **. we can store the string in character array.
+
 
  * ### **Keywords**
    #### Keywords are reserved words that have special meaning in the C language. They cannot be used as identifiers (variable names, function names, etc.). 
