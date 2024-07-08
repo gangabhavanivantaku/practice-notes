@@ -130,3 +130,64 @@ The given number 6 is even number.
 The given number 15 is odd number.
 
 ```
+**Lets create a userdefined function with return type `int`**
+
+#### implement string length method
+
+```c
+
+#include <cs50.h>
+#include <stdio.h>
+
+int string_length(string str);
+int main(void)
+{
+    string str;
+    str = get_string("Enter a string\n");
+    int length = string_length(str);
+    printf("%i\n", length);
+}
+int string_length(string str)        // int is a return type.
+{                                    // string_length is function name
+    int n = 0;                       // string is a parameter type
+    while(str[n] != '\0')            // str is a parameter
+    {                                // Ganga Bhavani is arugument.
+        n++;
+    }
+    return n;
+}
+
+```
+* **outut**:   13.
+  
+
+### Note
+
+**There is an inbuilt function or predefined function in C-library.**
+
+        #### strlen(parameter);
+
+        this function is in `<string.h>`header file.
+
+lets see if it is working.
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+    string name = "Ganga Bhavani";
+    /*int n = 0;
+    while(name[n] != '\0')
+    {
+        n++;
+    }*/
+   int length = strlen(name);
+    printf("%i\n", length);
+}
+
+```
+
+* outpout: 13.
