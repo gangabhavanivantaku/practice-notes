@@ -514,3 +514,21 @@ int main(void)
 
 71, 79, 0 ====> Here `71` is the ASCII code of `'G'`, `79` is the ASCII code of `'O'` and `0` is the ASCII code of `'\0'`;
 
+* ### **print characters ASCII codes**
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    char ch1 = 'C';
+    char ch2 = 'A';
+    char ch3 = 'T';
+    printf("%i,%i,%i.\n", ch1, ch2, ch3);
+}
+```
+
+**The corresponding output**
+
+67,65,84.(ASCII codes of 'C','A','T'.)
