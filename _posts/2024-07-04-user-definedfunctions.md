@@ -167,7 +167,7 @@ int string_length(string str)        // int is a return type.
 
 #### strlen(parameter);
 
-    This function is in `<string.h>`header file.
+This function is in `<string.h>` header file.
 
 * The corresponding code
 
