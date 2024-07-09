@@ -190,4 +190,25 @@ int main(void)
 
 ```
 
-* outpout: 13.
+* outpout: 13
+
+### **Implement print string method (return type `string`)**
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+string printname(string str);
+int main(void)
+{
+
+    string name = "Ganga";
+    printf("%s\n', printname(name));
+
+}
+string printname(string str)
+{
+    return str;
+}
+```
+* output : Ganga
