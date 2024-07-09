@@ -165,11 +165,11 @@ int string_length(string str)        // int is a return type.
 
 **There is an inbuilt function or predefined function in C-library.**
 
-        #### strlen(parameter);
+#### strlen(parameter);
 
-        this function is in `<string.h>`header file.
+    This function is in `<string.h>`header file.
 
-lets see if it is working.
+* The corresponding code
 
 ```c
 #include <cs50.h>
