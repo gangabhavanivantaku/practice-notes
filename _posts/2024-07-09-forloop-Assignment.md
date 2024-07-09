@@ -82,3 +82,7 @@ int main(void)
 ### Here is the debugging video
 
 [Click Here](https://www.loom.com/share/acb4d1dec4f146b9838afbc31ce19a80?sid=cf1554ea-f012-4f0d-a571-869157d2a60c)
+
+### Here is the youtube link 
+
+[Play Here](https://youtu.be/4luOwft-Vms)
