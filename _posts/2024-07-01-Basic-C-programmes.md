@@ -476,3 +476,41 @@ Up to which number would you like to print odd numbers? 10
 The odd numbers up to 10 are 1, 3, 5, 7, 9.
 
 ```
+
+* ### **Print lowercase and the corresponding uppercase letters**
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+
+int main(void)
+{
+    char ch = get_char("Enter an lower-case letter: ");
+    printf("%c --> %c\n", ch, ch- 32);
+
+}
+
+```
+**The corresponding output**
+
+```bash
+Enter an lower-case letter: a
+a --> A
+```
+* ### **print string ASCII codes including null**
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    string str = "GO";
+    printf("%i, %i, %i\n.", str[0], str[1], str[2]);
+}
+```
+**The corresponding output**
+
+71, 79, 0 ====> Here `71` is the ASCII code of `'G'`, `79` is the ASCII code of `'O'` and `0` is the ASCII code of `'\0'`;
+
