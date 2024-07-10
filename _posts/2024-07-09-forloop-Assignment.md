@@ -57,6 +57,7 @@ In essence, you can use a for loop when you know how many times you want to loop
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WDJpZhU-Ikc?si=tmSoYcOBd49elq3L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
 ### **Here is an example of `for loop` that prints the number from 1 to 10**
 
 ```c
@@ -80,12 +81,10 @@ int main(void)
 ```
 
 ### Here is the debugging video
-
-[Click Here](https://www.loom.com/share/acb4d1dec4f146b9838afbc31ce19a80?sid=cf1554ea-f012-4f0d-a571-869157d2a60c)
-
-### Here is the YouTube link to see the execution of for loop  
+  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4luOwft-Vms?si=5Xd0g7r5XsuyIM9-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ### **This is an article on the for loop**
 
