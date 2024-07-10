@@ -57,7 +57,7 @@ In essence, you can use a for loop when you know how many times you want to loop
 
 [Here is the link](https://youtu.be/WDJpZhU-Ikc?si=-lbXUVkE23kXScF2)
 
-### **Example programme on ``for loop`**
+### **Here is an example of `for loop` that prints the number from 1 to 10**
 
 ```c
 #include <cs50.h>
