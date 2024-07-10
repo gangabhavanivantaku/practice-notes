@@ -83,6 +83,12 @@ int main(void)
 
 [Click Here](https://www.loom.com/share/acb4d1dec4f146b9838afbc31ce19a80?sid=cf1554ea-f012-4f0d-a571-869157d2a60c)
 
-### Here is the youtube link 
+### Here is the YouTube link to see the execution of for loop  
 
 [Play Here](https://youtu.be/4luOwft-Vms)
+
+### **This is an article on the for loop**
+
+**Article1** [https://www.w3schools.com/c/c_for_loop.php]
+
+**Article2** [https://www.geeksforgeeks.org/for-loop-in-programming/]
