@@ -326,6 +326,11 @@ Enter the number
 2,4,6,8,10,12,14,16,18,20,22,
 
 ```
+**The corresponding terminal reccord**
+
+<script src="https://asciinema.org/a/jt9ZoSdC6fxzxdYIzqjm1bd5j.js" id="asciicast-jt9ZoSdC6fxzxdYIzqjm1bd5j" async="true"></script>
+
+
 * ### **`n` even numbers**
 
 ```c
