@@ -88,6 +88,6 @@ int main(void)
 
 ### **This is an article on the for loop**
 
-**Article1** [Learn more](https://www.w3schools.com/c/c_for_loop.php)
+**Article1** [https://www.w3schools.com/c/c_for_loop.php](https://www.w3schools.com/c/c_for_loop.php)
 
 **Article2** [See the full article](https://www.geeksforgeeks.org/for-loop-in-programming/)
