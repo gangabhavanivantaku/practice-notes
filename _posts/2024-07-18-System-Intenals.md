@@ -58,7 +58,7 @@ It acts as an intermediary between users and the computer hardware.
 
 * iOS: Developed by Apple, used on iPhones and iPads.
 
-**Summery**
+**Summary**
 
 The OS is essential for managing the hardware and software resources of a computer. It provides a user interface, manages processes and memory, handles file systems, and controls hardware devices. Understanding these basic points about the OS helps in grasping how computers work and how to interact with them effectively.
 
@@ -121,7 +121,7 @@ The printf function is called again to display the result. The OS ensures that t
 
 ![Image](https://media.geeksforgeeks.org/wp-content/uploads/123-6.png)
 
-* write your C code in a text file with a .c extension.
+* write your C code in a text file with a `.c` extension.
 
 * The C compiler translates the high-level C code into machine code. 
 
