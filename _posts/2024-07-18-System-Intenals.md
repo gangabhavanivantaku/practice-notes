@@ -9,7 +9,7 @@ When we talk about "system internals," we're referring to the basic components a
 
 ### **Hardware Components**
 
-[Old Computer Diagram ](https://www.kindpng.com/picc/m/154-1549386_old-computer-diagram-wiring-diagram-g11-computer-components.png) 
+![Old Computer Diagram ](https://www.kindpng.com/picc/m/154-1549386_old-computer-diagram-wiring-diagram-g11-computer-components.png) 
 
 1. **Central Processing Unit (CPU)**
 
