@@ -61,3 +61,76 @@ It acts as an intermediary between users and the computer hardware.
 **Summery**
 
 The OS is essential for managing the hardware and software resources of a computer. It provides a user interface, manages processes and memory, handles file systems, and controls hardware devices. Understanding these basic points about the OS helps in grasping how computers work and how to interact with them effectively.
+
+**Example: A Simple System Program**
+
+Here’s a simple C program that demonstrates process creation and communication
+
+```c
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    int num1;
+    int num2;
+    int sum;
+    printf("To add two numbers.\n");
+
+    printf("Enter the first number: ");
+    scanf("%i", &num1);
+
+    printf("Enter the second number: ");
+    scanf("%i", &num2);
+
+    sum = num1 + num2;
+
+    printf("The sum of %i and %i is %i.\n", num1, num2, sum);
+}
+
+```
+In this program
+
+* **Memory Allocation for Variables:**
+
+When the program starts, memory is allocated in the RAM for the variables num1, num2, and sum. These are integer variables, so each one typically takes up 4 bytes of memory on a 32-bit or 64-bit system.
+
+* **Using printf and scanf Functions:**
+
+The printf function is used to display messages to the user. It writes the specified message to the standard output (usually the screen).
+
+The scanf function is used to read input from the user. It takes the input from the standard input (usually the keyboard) and stores it in the specified memory addresses of num1 and num2.
+
+* **Role of the OS in printf and scanf:**
+
+The OS facilitates the printf and scanf functions by providing access to standard input and output. It ensures that the input from the keyboard is captured and sent to the program and that the output from the program is displayed on the screen.
+
+* **CPU Operations:**
+
+The CPU performs the addition operation. It retrieves the values of num1 and num2 from RAM, performs the addition, and stores the result in the variable sum.
+
+* **Storing the Computed Value:**
+
+The computed value (sum of num1 and num2) is stored back in the RAM in the memory allocated for the variable sum.
+
+* **Output Display:**
+
+The printf function is called again to display the result. The OS ensures that the value of sum is correctly read from RAM and displayed on the screen.
+
+### **The stages involve in C-program running**
+
+![Image](https://media.geeksforgeeks.org/wp-content/uploads/123-6.png)
+
+* write your C code in a text file with a .c extension.
+
+* The C compiler translates the high-level C code into machine code. 
+
+  1. The preprocessor handles directives such as #include and #define. It processes these directives and generates an expanded    source code file.
+
+  2. The compiler translates the preprocessed code into assembly code for a specific architecture.
+
+  3. The assembler translates the assembly code into machine code (binary code). This generates an object file (.o or .obj).
+   
+  4. The linker combines object files and libraries into a single executable file. It resolves references to external functions and variables.
+
+* The operating system loads the executable file into memory and starts execution. 
