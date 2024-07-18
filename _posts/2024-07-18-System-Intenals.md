@@ -1,5 +1,5 @@
 ---
-title: "Syatem Internals"
+title: "System Internals"
 date: 2024-07-18
 categories:
 ---
@@ -9,7 +9,7 @@ When we talk about "system internals," we're referring to the basic components a
 
 ### **Hardware Components**
 
-<a href="https://www.kindpng.com/imgv/iRhRJhh_old-computer-diagram-wiring-diagram-g11-computer-components/" target="_blank"></a>
+<a href="https://www.kindpng.com/imgv/iRhRJhh_old-computer-diagram-wiring-diagram-g11-computer-components/" target="_blank">Old Computer Diagram Wiring Diagram G11 Computer Components - Component Inside A Computer, HD Png Download @kindpng.com</a>
 
 1. **Central Processing Unit (CPU)**
 
