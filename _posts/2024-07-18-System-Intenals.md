@@ -9,9 +9,7 @@ When we talk about "system internals," we're referring to the basic components a
 
 ### **Hardware Components**
 
-[Old Computer Diagram ][image]
-
-[image]: (https://www.kindpng.com/picc/m/154-1549386_old-computer-diagram-wiring-diagram-g11-computer-components.png) 
+[Old Computer Diagram ](https://www.kindpng.com/picc/m/154-1549386_old-computer-diagram-wiring-diagram-g11-computer-components.png) 
 
 1. **Central Processing Unit (CPU)**
 
@@ -37,29 +35,29 @@ When we talk about "system internals," we're referring to the basic components a
 
 ### **Operating System (OS)**
 
-    The operating system is the software that manages all the hardware and provides services for running applications. 
-    It acts as an intermediary between users and the computer hardware.
+The operating system is the software that manages all the hardware and provides services for running applications. 
+It acts as an intermediary between users and the computer hardware.
 
-    * Managing input and output operations.
+* Managing input and output operations.
 
-    * Keeping track of where data is stored in RAM.
+* Keeping track of where data is stored in RAM.
 
-    * Managing how data is stored and retrieved from storage devices.
+* Managing how data is stored and retrieved from storage devices.
 
-    * To communicate with hardware devices.
+* To communicate with hardware devices.
 
 **Examples of Popular Operating Systems**
 
-    * Windows: Developed by Microsoft, widely used on personal computers.
+* Windows: Developed by Microsoft, widely used on personal computers.
 
-    * macOS: Developed by Apple, used on Mac computers.
+* macOS: Developed by Apple, used on Mac computers.
 
-    * Linux: An open-source OS used on servers and desktops.
+* Linux: An open-source OS used on servers and desktops.
 
-    * Android: Based on Linux, used on mobile devices.
+* Android: Based on Linux, used on mobile devices.
 
-    * iOS: Developed by Apple, used on iPhones and iPads.
+* iOS: Developed by Apple, used on iPhones and iPads.
 
 **Summery**
 
-    The OS is essential for managing the hardware and software resources of a computer. It provides a user interface, manages processes and memory, handles file systems, and controls hardware devices. Understanding these basic points about the OS helps in grasping how computers work and how to interact with them effectively.
+The OS is essential for managing the hardware and software resources of a computer. It provides a user interface, manages processes and memory, handles file systems, and controls hardware devices. Understanding these basic points about the OS helps in grasping how computers work and how to interact with them effectively.
